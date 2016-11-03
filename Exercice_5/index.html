@@ -12,7 +12,26 @@
     <button type="button" name="button" >Envoyer</button>
   </form>
   <script>
-
+     
+     //nom 
+      
+      $("#nom").focusin(function(){
+         $("#nom").css({'border': '1px solid green'}) 
+      });
+      
+      $("#nom").focusout(function(){
+         $("#nom").css({'border': '1px solid red'}) 
+      });
+     
+     //prenom 
+      
+      $("#prenom").focusin(function(){
+         $("#prenom").css({'border': '1px solid green'}) 
+      });
+      
+      $("#prenom").focusout(function(){
+         $("#prenom").css({'border': '1px solid red'}) 
+      });
   </script>
 </body>
 </html>
